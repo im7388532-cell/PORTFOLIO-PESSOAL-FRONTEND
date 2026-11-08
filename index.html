@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Ítalo Garção</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <a class="logo" href="#sobre">Ítalo Garção</a>
+        <nav>
+            <a href="#sobre">Sobre</a>|
+            <a href="#portfolio">Portfólio</a>|
+            <a href="#skills">Skills</a>|
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="sobre" class="exibição">
+            <img class="foto" src="assets/foto.JPG" alt="minha foto">
+            <div class="exibição-texto">
+                <h1>Ítalo Moura Garção</h1>
+                <p>Sou estudante da Universidade Tiradentes (UNIT), estou cursando Sistemas de Informação e, através dos conhecimentos adiquiridos nesta instituição, comecei a gostar de desenvolver interfaces, mexer na área de redes e lidar com os desafios diários implementados na aula. Futuramente pretendo ser um bom Cybersegurança, para proteger os dados pessoais dos cidadãos.</p>
+                
+            </div>
+        </section>
+        
+            <section id="portfolio" class="bloco">
+            <h2>Portfólio</h2>
+            <p>Meus projetos </p>
+            
+            <div class="carrossel">
+            <button id="btn-anterior" class="seta" type="button" aria-label="Projetos anteriores">&lt;</button>
+            <div class="trilho" id="trilho-projetos">
+            <article class="projeto">
+         <img src="assets/lampada_foto.jpg" class="projeto-imagem" alt="Desafio da lampada" >
+            <h3>Desafio da lampada</h3>
+            <p>Fazer a lampada acender e apagar.</p>
+            <a href="projetos/Lampada/index.html" target="_blank">Acessar projeto</a>
+            </article>
+
+            <article class="projeto">
+                        <div class="projeto-imagem">02</div>
+                        <h3></h3>
+                        <p></p>
+                        <a href=>Acessar projeto</a>
+             </article>
+
+            <article class="projeto">
+                        <div class="projeto-imagem">03</div>
+                        <h3></h3>
+                        <p></p>
+                        <a href=>Acessar projeto</a>
+            </article>
+
+            <article class="projeto">
+                        <div class="projeto-imagem">04</div>
+                        <h3></h3>
+                        <p></p>
+                        <a >Acessar projeto</a>
+            </article>
+
+            <article class="projeto">
+                        <div class="projeto-imagem">05</div>
+                        <h3></h3>
+                        <p>.</p>
+                        <a >Acessar projeto</a>
+             </article>
+            </div>
+
+                <button id="btn-proximo" class="seta" type="button" aria-label="Próximos projetos">&gt;</button>
+            </div>
+        </section>
+
+        
+        <section id="skills" class="bloco">
+            <h2>Skills</h2>
+            <p>Minhas habilidades técnicas.</p>
+             <div class="skill">
+             <div class="skill-cabecalho">
+                    <span>HTML</span><span>83%</span>
+                </div>
+                <div class="barra">
+                    <div class="nivel" data-nivel="90"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-cabecalho">
+                    <span>CSS</span><span>75%</span>
+                </div>
+                <div class="barra">
+                    <div class="nivel" data-nivel="75"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-cabecalho">
+                    <span>JavaScript</span><span>55%</span>
+                </div>
+                <div class="barra">
+                    <div class="nivel" data-nivel="55"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="bloco">
+            <h2>CONTATO</h2>
+            <p>Fale comigo ou envie uma mensagem através deste formulário.</p>
+             
+
+                <form id="form-contato" class="formulario" novalidate>
+                    <label for="nome">NOME</label>
+                    <input id="nome" type="text" placeholder="SEU NOME" required>
+
+                    <label for="email">E-MAIL</label>
+                    <input id="email" type="email" placeholder="VOCE@EXEMPLO.COM" required>
+
+                    <label for="mensagem">MENSAGEM</label>
+                    <textarea id="mensagem" rows="4" placeholder="DIGITE SUA MENSAGEM" required></textarea>
+
+                    <button class="botao" type="submit">ENVIAR</button>
+                    <p id="retorno-formulario" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ÍTALO GARÇÃO. TODOS OS DIREITOS RESERVADOS.</p>
+    </footer>
+</body>
+</html>
