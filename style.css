@@ -1,9 +1,9 @@
 
 :root {
     --bg-main:white;
-    --card-bg: navy;
-    --text-main: black; 
-    --text-muted: blue;
+    --card-bg:#446e87;
+    --text-main: black;
+    --text-muted: black;
     --border-color: white;
     --primary: black;
     --primary-hover: white;
@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 8%;
-    background-color: navy;
+    background-color:#446e87;
     border-bottom: 1px solid var(--border-color);
     z-index: 1000;
 }
@@ -173,7 +173,7 @@ main {
     max-width: 920px;
     margin: 0 auto;
     overflow: hidden;
-    padding: 1rem 3.5rem; /* Espaço nas laterais para abrigar as setas */
+    padding: 1rem 3.5rem; 
 }
 
 .trilho {
@@ -184,7 +184,7 @@ main {
 }
 
 .projeto {
-    min-width: calc(33.333% - 1rem); /* 3 cartões visíveis no desktop */
+    min-width: calc(33.333% - 1rem); 
     background-color: white;
     border: 1px solid var(--border-color);
     border-radius: 6px;
@@ -246,7 +246,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0);
     transition: all 0.2s ease;
 }
 
